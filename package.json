@@ -12,16 +12,28 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
   "bugs": {
     "url": "https://github.com/M4rkelus/Food/issues"
   },
   "homepage": "https://github.com/M4rkelus/Food#readme",
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "core-js": "^2.6.12",
     "json-server": "^0.16.3",
     "webpack": "^5.31.0",
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
-    "jshint": "^2.5.11"
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise": "^4.2.8",
+    "es6-promise-polyfill": "^1.2.0",
+    "jshint": "^2.5.11",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }
